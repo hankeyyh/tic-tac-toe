@@ -1,7 +1,7 @@
 'use client'
 
 import Board from "@/component/board";
-import { useState, useEffect } from "react";
+import { useState } from "react";
 
 export default function Game() {
     const [history, setHistory] = useState<(string | null)[][]>([Array(9).fill(null)]);

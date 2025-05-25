@@ -1,4 +1,4 @@
-import Board from "@/component/board";
+import Game from "./game";
 
 export default function Home() {
 
@@ -7,7 +7,7 @@ export default function Home() {
 
   return (
     <div>
-      <Board />
+      <Game />
     </div>
   );
 }

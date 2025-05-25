@@ -59,7 +59,7 @@ export default function Game() {
                 </div>
                 <div className="flex flex-col">
                     {Array.from({length: currentMove + 1}, (_, i) => (
-                        <button key={i} className="p-2 border rounded w-60" onClick={() => jumpTo(i)}>
+                        <button key={i} className="p-2 border rounded w-60 hover:bg-blue-100 hover:border-blue-400 active:bg-blue-200 active:scale-95 transition-colors duration-200" onClick={() => jumpTo(i)}>
                             {getButtonText(i)}
                         </button>
                     ))}
